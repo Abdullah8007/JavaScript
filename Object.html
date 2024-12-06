@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // a = {
+        //     name : "Abdullah",
+        //     age : 23,
+        //     contact : 9359108007
+        // }
+        // console.log(a)
+        // console.log(a.name)
+        // console.log(a["name"])
+        // console.log(Object.keys(a))
+        // console.log(Object.values(a))
+        // console.log(Object.entries(a))
+        // a.surname = "Jagrala"
+        // console.log(a)
+
+        mcc_students = [
+            {
+                r_no : 101,
+                name : "Abdullah",
+                age : 23
+            },
+            {
+                r_no : 102,
+                name : "Muhammad J",
+                age : 22
+            },
+            {
+                r_no : 103,
+                name : "Muhammad M",
+                age : 45
+            },
+            {
+                r_no : 104,
+                name : "Fuzail",
+                age : 40
+            },
+            {
+                r_no : 105,
+                name : "Humaid",
+                age : 25
+            }
+        ]
+
+        for (i=0; i<mcc_students.length; i++){
+            // console.log(mcc_students[i])
+            console.log(`My name is ${mcc_students[i].name}. I'm ${mcc_students[i].age} years old, My Roll No is ${mcc_students[i].r_no}`)
+        }
+    </script>
+</body>
+</html>
