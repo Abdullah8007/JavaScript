@@ -74,7 +74,7 @@
     }
 
     table td {
-        /* padding: 5px; */
+        padding: 5px;
     }
 
     input {
@@ -103,8 +103,12 @@
     </div>
 
     <script>
-        data = []
-
+        data = [
+            {
+                title : "Task 1",
+                desc : "Learn Python through w3school."
+            }
+        ]
         function display() {
             html = ""
             for (i = 0; i < data.length; i++) {
@@ -120,6 +124,8 @@
 
             document.getElementById('table').innerHTML = html;
         }
+
+        display()
 
         function add() {
             t_title = document.getElementById('title').value;
